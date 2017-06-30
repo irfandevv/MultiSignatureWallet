@@ -4,7 +4,6 @@
 The smallest known EIP712 compliant MultiSignatureWallet for the Ethereum Virtual Machine.
 
 ## Features:
-
 - Close-To-The-Metal: Easily auditable at the opcode level (easier for formal verification)
 - Tiny deployment cost (311 Bytes / 233 opcodes)
 - Reduced execution cost (when executing transactions)
@@ -16,7 +15,6 @@ The smallest known EIP712 compliant MultiSignatureWallet for the Ethereum Virtua
 - MIT License; completely open source to do with as you please
 
 ## Design
-
 The design of this multi-signature wallet was based around Christian Lundkvist's Simple-Multisig.
 
 [Christian's Wallet](https://github.com/christianlundkvist/simple-multisig)
@@ -29,7 +27,6 @@ what is going on under the hood and thus potentially better verify the wallet's 
 ***This wallet has yet to be audited and is experimental.***
 
 ## Implementation
-
 The final wallet code can be found in the `MultiSignatureWallet.yul` file.
 
 View it now by copying the Yul code into [Yulit in your browser](https://yulit.surge.sh)!
